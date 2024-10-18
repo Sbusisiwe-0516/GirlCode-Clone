@@ -1,0 +1,523 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    overflow-x: hidden;
+}
+.container{
+    padding: 0 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Header */
+.logo-img{
+    width: 200px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #E94154;
+}
+/* hero */
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 22px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+
+.hero-img{
+    width: 600px;
+    height: 600px;
+}
+.left-side{
+    width: 680px;
+}
+
+.hero .left-side h1{
+    width: 470px;
+    color: #E94154;
+}
+
+/* slideshow */
+.slideshow{
+    background-color: #ececec;
+    padding: 45px;
+    margin: 50px -50px;
+}
+.inner-slide-box{
+    display: flex;
+    gap: 30px;
+}
+.slideshow img{
+    width: 100px;
+}
+
+/* cards */
+.card-heading{
+    text-align: center;
+    font-size: 22px;
+}
+
+.top-paragraph{
+    margin-top: -20px;
+    margin-bottom: 18px;
+}
+
+.cards p{
+    text-align: center;
+    font-size: 18px;
+}
+.card-wrap{
+    display: flex;
+    justify-content: space-around;
+    gap: 9px;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 330px;
+    height: 330px;
+}
+
+.card-img img{
+    width: 330px;
+    height: 152.2px;
+    border-radius: 6px 6px 0 0;
+    object-fit: cover;
+}
+
+.card-content h3{
+    padding-left: 10px;
+}
+
+.card-content p{
+    text-align: left;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.card .button{
+    background-color: #E94154;
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 4px;
+}
+.card .button a{
+    text-decoration: none;
+    color: white;
+}
+.card .button a:hover{
+    color: #E94154;
+}
+
+/* events */
+.events{
+    display: flex;
+    background-color: #E94154;
+    margin: 50px -50px;
+    height: 320px;
+    gap: 40px;
+    padding: 30px;
+    color: white;
+}
+
+.events-left{
+    width: 636px;
+}
+.events-left h2{
+    padding-top:48px;
+    font-size: 35px;
+}
+
+.events-left h4{
+    background: white;
+    color: #E94154;
+}
+.events-right h3{
+    font-size: 25px;
+}
+.events-left p{
+    font-size: 18px;
+}
+
+.events-left .button{
+    background-color: white;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+.events-left .button a{
+    text-decoration: none;
+    color: #E94154;
+}
+
+.events-left .button a:hover{
+    color: white;
+}
+.events-right p{
+    font-size: 18px;
+    margin-top: -10px;
+}
+.events-right{
+   padding-top: 110px;
+}
+
+/* testimonials */
+.testimonials h2{
+    text-align: center;
+}
+.testimonials p{
+    text-align: center;
+    margin-top: -10px;
+    font-size: 18px;
+}
+.test-card{
+    border: 1px solid black;
+    width: 420px;
+    height: 280px;
+    padding: 20px;
+    border-radius: 4px;
+    margin-right: 30px;
+}
+.test-card img{
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+}
+.card-header{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.test-heading p{
+    font-size: 14px;
+    margin-top: -20px;
+}
+.test-content{
+    padding: 10px;
+    margin-left: -10px;
+}
+.test-content p{
+    text-align: justify;
+    font-size: 16px;
+    padding-top: 20px;
+}
+.test-wrap{
+    display: flex;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.dot {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+/* sign-up */
+.signUp{
+    margin-top: 40px;
+    background-color:#ececec ;
+    padding: 40px;
+    margin: 50px -50px;
+}
+
+.signUp-wrap{
+    display: flex;
+    gap: 20px;
+}
+
+.signUp h2{
+    text-align: center;
+    padding: 10px;
+}
+
+.signUp-card{
+    border: 1px solid black;
+    border-radius:6px ;
+    width: 300px;
+    /*height: 220px;*/
+    padding: 20px;
+}
+
+.signUp-card p{
+    font-size: 16px;
+    width: 280px;
+}
+
+.signUp-card .button{
+   background-color: #E94154;
+   width: 280px;
+   height: 20px;
+   padding: 4px;
+   text-align: center;
+   border-radius: 4px;
+   margin-top: 50px;
+   
+}
+.signUp-card .button a{
+    text-decoration: none;
+    color: white;
+
+}
+.signUp-card .button a:hover{
+    color: #E94154;
+}
+
+/* patners */
+.partners-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.patner-left{
+    width: 600px;
+    align-content: center;
+}
+.patner-left p{
+    font-size: 18px;
+}
+
+.patner-left .button{
+    background-color: #E94154;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.patner-left .button a{
+    text-decoration: none;
+    color: white;
+}
+
+.patner-left .button a:hover{
+    color: #E94154;
+}
+
+td{
+    padding: 5px;
+    padding-right: 20px;
+}
+table img{
+    width: 200px;
+}
+footer{
+    margin: 50px -50px;
+    background-color: #E94154;
+    height: 300px;
+    position: absolute;
+    padding-right: 299px;
+}
+
+.footer-wrap{
+    padding-top: 30px;
+    margin-left: 10px;
+    display: flex;
+    gap: 40px;
+}
+
+/* footer */
+.footer-head{
+    margin-left: 30px;
+    width: 415px;
+}
+.footer-head img{
+    width: 150px;
+}
+
+.footer-head p{
+    font-size: 18px;
+    color: white;
+}
+ a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin-left: -10px;
+}
+.footer-par h4{
+    color: white;
+    font-size: 18px;
+    padding-left: 30px;
+}
+li{
+    list-style: none;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    flex-wrap: wrap;
+}
+.socials i{
+    color: #ffffff;
+    padding-top: 30px;
+}
+.social-wrap .button{
+    height: 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px;
+}
+.social-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.social-wrap a{
+    margin-left: 0px;
+    color: #E94154;
+    font-size: 18px;
+}
+.social-wrap .button a:hover{
+    color: white;
+}
+
+/* Hackathon styling */
+
+.hackathon-img{
+    width: 1519.5px;
+    height: 400px;
+    object-fit: cover;
+    margin: 50px -50px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+.hackathon-par{
+    text-align: center;
+}
+.hackathon-par p{
+    font-size: 20px;
+}
+
+.hackathon-par .button{
+    width: 100px;
+    background-color: #E94154;
+    padding: 10px;
+    border-radius: 4px;
+    margin: auto;
+
+}
+.hackathon-par .button a{
+    text-align: center;
+}
+
+/* winners */
+.winner-background{
+    background-color: #ececec;
+    margin: 50px -50px;
+}
+
+.winners{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.hackathon-winners h3{
+    text-align: center;
+}
+.hackathon-winners img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    margin: auto;
+}
+.hackathon-winners p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+/* donate */
+.donate{
+    background-image: url("assets/girlcode_students-BNN1dAjh.webp");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 -50px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+.donate-left{
+    width: 1000px;
+    margin-left: 10px;
+    padding: 50px;
+}
+
+.donate-left h3{
+    font-size: 20px;
+    color: white;
+    margin-left: -10px;
+}
+
+.donate-left p{
+    font-size: 18px;
+    color: white;
+    margin-left: -10px;
+}
+.donate-button{
+    background-color: white;
+    padding: 10px 80px;
+    margin: auto;
+    border-radius: 4px;
+    
+}
+
+.donate-button a{
+    color: #E94154;
+}
+.donate-button a:hover{
+    color: white;
+}
+.donate-button:hover{
+    background-color: #E94154;
+    border: 1px solid white;
+    color: white;
+}
